@@ -6,7 +6,7 @@ require 'pp'
 moviecount=0 
 grossss=0
 while moviecount < directors_database[0][:movies].length
-gross+= directors_database[0][:movies][moviecount][:worldwide_gross]
+grossss+= directors_database[0][:movies][moviecount][:worldwide_gross]
 moviecount+=1
 end
 
