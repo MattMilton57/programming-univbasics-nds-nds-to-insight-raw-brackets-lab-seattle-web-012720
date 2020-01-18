@@ -3,10 +3,10 @@ require 'directors_database'
 
 require 'pp'
 
-dircount=0 
+moviecount=0 
 
-while dircount < directors_database[0][:movies].length
-p directors_database[0][:movies][0][:worldwide_gross]
+while moviecount < directors_database[0][:movies].length
+p directors_database[0][:movies][moviecount][:worldwide_gross]
 dircount+=1
 end
 
