@@ -7,7 +7,7 @@ moviecount=0
 
 while moviecount < directors_database[0][:movies].length
 p directors_database[0][:movies][moviecount][:worldwide_gross]
-dircount+=1
+moviecount+=1
 end
 
 def directors_totals(nds)
