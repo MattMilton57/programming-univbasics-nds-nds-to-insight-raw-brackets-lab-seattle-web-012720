@@ -3,6 +3,8 @@ require 'directors_database'
 
 require 'pp'
 
+
+def directors_totals(nds)
 result={}
 
 moviecount=0 
@@ -16,6 +18,6 @@ result[dirname] = grossss
 
 p result
 
-def directors_totals(nds)
+
 
 end
